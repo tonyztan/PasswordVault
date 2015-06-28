@@ -1,9 +1,27 @@
 # PasswordVault
 A simple python-based password manager that encrypts login credentials using a key derived from a master username, password, and salt.
 
-(I wrote this in the summer of 2014.)
+Written in the summer of 2014.
 
-WARNING: Even though this application makes use of common cryptographic algorithms such as AES-256 and SHA2, the security of this implementation has not been audited or verified and may contain security problems or otherwise be insecure for real-world use. All encrypted login credentials are stored locally and never uploaded to any server. Please do not rely on this program to protect sensitive information.
+# Warning
+Even though this application makes use of common cryptographic algorithms such as AES-256 and SHA2, the security of this implementation has not been audited or verified and may contain security problems or otherwise be insecure for real-world use. All encrypted login credentials are stored locally and never sent to the Internet.
+
+Please do not rely on this program to protect highly-sensitive information.
+
+#License
+The MIT License (MIT)
+
+Copyright (c) 2015 Tony Zhaocheng Tan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
