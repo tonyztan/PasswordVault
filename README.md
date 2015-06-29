@@ -3,14 +3,14 @@ A simple python-based password manager that encrypts login credentials using a k
 
 Written in the summer of 2014.
 
-# Warning
+## Warning
 Even though this application makes use of common cryptographic algorithms such as AES-256 and SHA2, the security of this implementation has not been audited or verified and may contain security problems or otherwise be insecure for real-world use.
 
 All login credentials are encrypted and stored locally on the user's computer.
 
 Please do not rely on this program to protect highly-sensitive information.
 
-#License
+##License
 The MIT License (MIT)
 
 Copyright (c) 2015 [Tony Zhaocheng Tan](https://tonytan.io/about)
